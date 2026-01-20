@@ -3,7 +3,6 @@ use edwards::bjj::BabyJubJub as Point;
 use edwards::CurveTrait;
 use edwards::ScalarField;
 
-
 // BASE8 generator point (8 * G) for Baby Jubjub curve
 global BASE8_X: Field = 0xbb77a6ad63e739b4eacb2e09d6277c12ab8d8010534e0b62893f3f6bb957051;
 global BASE8_Y: Field = 0x25797203f7a0b24925572e1cd16bf9edfce0051fb9e133774b3c257a872d7d8b;
